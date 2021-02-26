@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T12:30:54.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="8N0M1OveffwPFcRNYS8k" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-26T12:44:29.915Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="Ms4-BjMS_gaTZH2hvOGd" version="14.4.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1988" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2226" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -102,8 +102,52 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S78mHsQoV-UwoEoG9drm-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="680" y="-74" width="160" height="90" as="geometry" />
+        <mxCell id="S78mHsQoV-UwoEoG9drm-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Carrera&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ double distancia&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ double premioEnDolares&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ String nombre&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ int cantidadDeVehiculosPermitidos&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="-80" width="600" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="S78mHsQoV-UwoEoG9drm-19" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="30" width="600" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="S78mHsQoV-UwoEoG9drm-20" value="+ private agregarVeihculo(Vehiculo v): void&lt;br&gt;+ public darDeAltaAuto(double velocidad, double aceleracion, double anguloDeGiro, String patente): void&lt;br&gt;+ public darDeAltaMoto(double velocidad, double aceleracion, double anguloDeGiro, String patente): void&lt;br&gt;+ public mostrarVehiculos(): void&lt;br&gt;+ public obtenerVehiculoConPatente(String patente): Vehiculo&lt;br&gt;+ public eliminarVehiculo(Vehiculo v): void&lt;br&gt;+ public eliminarVehiculoConPatente(String patente): void&lt;br&gt;+ public ganadorDeLaCarrera(): Vehiculo&lt;br&gt;+ public socorrerAuto(String patente): void&lt;br&gt;+ public socorrerMoto(String patente): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="40" width="580" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="S78mHsQoV-UwoEoG9drm-21" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=0.827;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.066;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="S78mHsQoV-UwoEoG9drm-18" target="zkfFHV4jXpPFQw0GAbJ--0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="650" y="-30" as="sourcePoint" />
+            <mxPoint x="810" y="-30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="314" y="-59" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S78mHsQoV-UwoEoG9drm-22" value="0...* + listaDeVehiculos" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="-90" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S78mHsQoV-UwoEoG9drm-23" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.181;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="S78mHsQoV-UwoEoG9drm-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1240" y="480" as="sourcePoint" />
+            <mxPoint x="730" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1269" y="600" />
+              <mxPoint x="730" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S78mHsQoV-UwoEoG9drm-24" value="+ socorristaMoto" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="740" y="570" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S78mHsQoV-UwoEoG9drm-25" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.181;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1648.5999999999995" y="240.00000000000003" as="sourcePoint" />
+            <mxPoint x="280" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1649" y="690" />
+              <mxPoint x="280" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S78mHsQoV-UwoEoG9drm-26" value="+ socorristaAuto" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="650" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
